@@ -59,10 +59,10 @@ global.mode = process.env.MODE || 'public';
 //=================================================//
 global.hituet = 0 
 //=================================================//
-global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
+global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'false'
 
 //=================================================//
-global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'true'
+global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
 
 //=================================================//
 global.anticall = process.env.ANTI_CALL || 'false'
